@@ -1,0 +1,150 @@
+#heading{
+    color:whitesmoke;
+    background-color: black;
+    padding:25px;
+    margin:0;
+    top:0;
+    left:0;
+    right:0;
+    font-size:30px;
+   
+}
+
+#container{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding-top:15px;
+    padding-left:200px;
+    background-color: azure;
+    margin-top:0;
+    
+  
+}
+
+#main-container{
+    position:relative;
+    width:450px;
+    height:450px;
+    margin-bottom: 40px;
+   
+
+   
+}
+
+
+
+#card{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 2s ease;
+    background:gray;
+    border-radius:20px;
+    box-shadow: 2px 5px 10px black,
+                2px 5px 10px gray,
+                2px 5px 10px white;
+    
+}
+
+#card1{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 2s ease;
+    background:gray;
+    border-radius:20px;
+    box-shadow: 2px 5px 10px black,
+                2px 5px 10px gray,
+                2px 5px 10px white;
+    
+}
+
+#card2{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 2s ease;
+    background:gray;
+    border-radius:20px;
+    box-shadow: 2px 5px 10px black,
+                2px 5px 10px gray,
+                2px 5px 10px white;
+    
+}
+
+#card3{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 2s ease;
+    background:gray;
+    border-radius:20px;
+    box-shadow: 2px 5px 10px black,
+                2px 5px 10px gray,
+                2px 5px 10px white;
+    
+}
+
+#front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    background:black;
+    color:#333;
+    border-radius:20px;
+   
+    
+}
+
+#back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    background:black;
+    color:white;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    transform:rotateY(180deg);
+    border-radius:20px;
+}
+
+
+
+#card img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+
+#card1 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card2 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
+#card3 img{
+    position:relative;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+}
+
